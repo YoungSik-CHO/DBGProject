@@ -12,4 +12,4 @@ $ python3 manage.py migrate로 DB에 공간 만들기
 
 
 ## 흐름
-localhost:8000 -> mysite의 urls.py -> electrons의 urls.py -> views.py의 index 메소드
+localhost:8000 -> {프로젝트}의 urls.py ->{모듈명}의 urls.py -> views.py의 index 메소드
