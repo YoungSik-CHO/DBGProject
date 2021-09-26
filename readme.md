@@ -9,7 +9,6 @@ $ python3 manage.py migrate로 DB에 공간 만들기
 
 
 ## admin 계정
-jincrates / 1111
 
 
 ## 흐름
