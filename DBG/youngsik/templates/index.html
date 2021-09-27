@@ -1,0 +1,17 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    방금 새로 만든 index.html 파일 입니다.
+
+    {% for article in article_list %}
+        <h2>{{ article.name }}</h2>
+
+        <h4>{{ article.description }}</h4>
+    {% endfor%}
+</body>
+</html>
